@@ -7,9 +7,7 @@ function App() {
         <Router>
             <Header />
             <Routes>
-                <Route path='/' exact element={
-                    <h1>Hello World</h1>
-                } />
+                <Route path='/' exact />
             </Routes>
         </Router>
     );
